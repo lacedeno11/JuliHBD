@@ -1,32 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flower</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower</title>
+  <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    <h1>Happy Anniversary Love!!!!<br><small>(click for more)</small></h1>
-    <div class="sunflwr">
-      <div class="sunflwr__leaf--left"></div>
-      <div class="sunflwr__leaf--right"></div>
-      <div class="sunflwr__stem"></div>
-      <div class="sunflwr__center"></div>
-      <div class="sunflwr__pedal--1"></div>
-      <div class="sunflwr__pedal--2"></div>
-      <div class="sunflwr__pedal--3"></div>
-      <div class="sunflwr__pedal--4"></div>
-      <div class="sunflwr__pedal--5"></div>
-      <div class="sunflwr__pedal--6"></div>
-      <div class="sunflwr__pedal--7"></div>
-      <div class="sunflwr__pedal--8"></div>
-      <div class="sunflwr__pedal--9"></div>
-      <div class="sunflwr__pedal--10"></div>
-      <div class="sunflwr__pedal--11"></div>
-      <div class="sunflwr__pedal--12"></div>
+  <h1>Feliz cumpleaños mi amooor!!<br><small>(click para más)</small></h1>
+
+  <!-- Contador de girasoles -->
+  <div id="flowerCounter">1/19</div>
+
+  <!-- Audio de fondo -->
+  <audio id="backgroundMusic" loop autoplay>
+    <source src="music.mp3" type="audio/mpeg">
+    <source src="music.ogg" type="audio/ogg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+
+  <!-- Pantalla negra final (oculta inicialmente) -->
+  <div id="finalScreen" style="display: none;">
+    <div id="finalImage">
+      <img src="final-image.jpeg" alt="Imagen final" id="finalImg">
     </div>
-    <script src="script.js"></script>
+    <div id="finalText">
+      <div id="scrollingText">
+        <p>Ya es su segundo cumpleaños desde que estamos juntos hace un año empezó a saborear la vida adulta,</p>
+
+        <p>ha tenido retos que ha sabido superar (no sin antes estresarse y hacerme berrinche) </p>
+
+        <p>y vendrán más, pero no se preocupe que siempre contará con mi apoyo para cualquier problema que tenga,</p>
+
+        <p>ha aprendido a expandir sus horizontes, no se si hace un año se imaginaba estar planificando irse conmigo a estados unidos </p>
+
+        <p>y ahora es una realidad próxima,</p>
+
+        <p>espero se cumpla todas sus metas este año y podamos cumplir metas juntos toda la vida, </p>
+
+        <p>nuevamente te amo mucho juli, más que a nada en este mundo</p>
+
+        <p>Feliz cumpleaños! 🌻💕</p>
+
+        <p>En algún momento le regalaré un campo lleno de girasoles solo para usted!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sunflwr">
+    <div class="sunflwr__center"></div>
+    <div class="sunflwr__pedal--1"></div>
+    <div class="sunflwr__pedal--2"></div>
+    <div class="sunflwr__pedal--3"></div>
+    <div class="sunflwr__pedal--4"></div>
+    <div class="sunflwr__pedal--5"></div>
+    <div class="sunflwr__pedal--6"></div>
+    <div class="sunflwr__pedal--7"></div>
+    <div class="sunflwr__pedal--8"></div>
+    <div class="sunflwr__pedal--9"></div>
+    <div class="sunflwr__pedal--10"></div>
+    <div class="sunflwr__pedal--11"></div>
+    <div class="sunflwr__pedal--12"></div>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>

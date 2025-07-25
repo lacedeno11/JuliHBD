@@ -174,4 +174,131 @@ h1 {
     width: 10%;
     border: 2px solid black;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map *//* Pa
+ntalla final negra */
+#finalScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+#finalImage {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 1s ease-in-out;
+  margin-bottom: 30px;
+}
+
+#finalImg {
+  max-width: 80vw;
+  max-height: 60vh;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+}
+
+#finalText {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-in-out;
+  text-align: center;
+}
+
+#finalText p {
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  margin: 0;
+  padding: 20px;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  #finalText p {
+    font-size: 1.8rem;
+  }
+  
+  #finalImg {
+    max-width: 90vw;
+    max-height: 50vh;
+  }
+}/* Contad
+or de girasoles */
+#flowerCounter {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 2px solid #f2fe00;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#flowerCounter:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transform: scale(1.05);
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  #flowerCounter {
+    top: 15px;
+    right: 15px;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+  }
+}/
+* Scrolling text styles */
+#finalText {
+  max-height: 60vh;
+  overflow-y: hidden;
+  width: 80%;
+  max-width: 800px;
+}
+
+#scrollingText {
+  padding: 20px;
+}
+
+#scrollingText p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-size: 1.8rem;
+}
+
+/* Smooth scrolling behavior */
+#finalText {
+  scroll-behavior: smooth;
+}
+
+/* Mobile responsive for scrolling text */
+@media (max-width: 768px) {
+  #scrollingText p {
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+  }
+  
+  #finalText {
+    width: 90%;
+    max-height: 50vh;
+  }
+}
