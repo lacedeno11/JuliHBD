@@ -174,8 +174,9 @@ h1 {
     width: 10%;
     border: 2px solid black;
   }
-}/*# sourceMappingURL=style.css.map *//* Pa
-ntalla final negra */
+}/*# sourceMappingURL=style.css.map */
+
+/* Pantalla final negra */
 #finalScreen {
   position: fixed;
   top: 0;
@@ -233,8 +234,9 @@ ntalla final negra */
     max-width: 90vw;
     max-height: 50vh;
   }
-}/* Contad
-or de girasoles */
+}
+
+/* Contador de girasoles */
 #flowerCounter {
   position: fixed;
   top: 20px;
@@ -266,8 +268,9 @@ or de girasoles */
     font-size: 1.2rem;
     padding: 8px 16px;
   }
-}/
-* Scrolling text styles */
+}
+
+/* Scrolling text styles */
 #finalText {
   max-height: 60vh;
   overflow-y: hidden;
